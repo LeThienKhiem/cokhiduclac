@@ -117,7 +117,7 @@ export const siteData = {
     description:
       "Chúng tôi cam kết tiến độ, an toàn và chất lượng trong từng hạng mục thi công, đồng hành cùng khách hàng từ tư vấn đến bàn giao.",
     backgroundImage:
-      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1920&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1920&auto=format&fit=crop",
     stats: [
       { label: "Năm kinh nghiệm", value: "20+" },
       { label: "Dự án hoàn thành", value: "180+" },
@@ -131,7 +131,7 @@ export const siteData = {
     phone: "0919.263.999",
     email: "cokhiduclac@example.com",
     mapSrc:
-      "https://maps.app.goo.gl/ur1vJGAaLKPbLWSTA",
+      "https://maps.google.com/maps?q=Rach%20Gia%20Kien%20Giang&t=&z=13&ie=UTF8&iwloc=&output=embed",
     socialLinks: [
       { label: "Zalo", href: "https://zalo.me" },
       { label: "Facebook", href: "https://facebook.com" },

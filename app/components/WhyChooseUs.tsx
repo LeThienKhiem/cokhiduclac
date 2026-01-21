@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-[#0b1b3a]/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0b1b3a]/95 via-[#0b1b3a]/90 to-[#0b1b3a]/95" />
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-4 sm:px-6">
         <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">

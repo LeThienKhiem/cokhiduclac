@@ -5,7 +5,7 @@ import { siteData } from "@/constants/data";
 export default function Footer() {
   return (
     <footer id="contact" className="bg-[#0b1b3a] text-white">
-      <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr]">
           <div>
             <h3 className="text-xl font-semibold">{siteData.footer.companyName}</h3>

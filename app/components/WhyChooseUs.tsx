@@ -84,6 +84,7 @@ export default function WhyChooseUs() {
           src={siteData.whyChooseUs.backgroundImage}
           alt="Xưởng cơ khí và kết cấu thép"
           fill
+          unoptimized
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0b1b3a]/95 via-[#0b1b3a]/90 to-[#0b1b3a]/95" />

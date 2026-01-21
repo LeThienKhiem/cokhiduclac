@@ -12,6 +12,7 @@ export default function Hero() {
           alt="Công trình cơ khí tại Kiên Giang"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
         <div className="absolute inset-0 bg-[#0b1b3a]/80" />

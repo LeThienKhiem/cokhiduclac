@@ -36,6 +36,7 @@ export default function PortfolioSection() {
                     src={group.images[0]}
                     alt={`Ảnh dự án ${group.category}`}
                     fill
+                    unoptimized
                     sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover"
                   />
@@ -106,6 +107,7 @@ export default function PortfolioSection() {
                       alt={`${activeCategory.category} ${index + 1}`}
                       width={900}
                       height={650}
+                      unoptimized
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="h-auto w-full rounded-lg object-cover"
                     />

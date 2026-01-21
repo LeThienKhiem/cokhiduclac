@@ -41,11 +41,6 @@ export default function PortfolioSection() {
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-                  <div className="absolute inset-0 flex items-end px-4 pb-4">
-                    <span className="text-sm font-semibold text-white">
-                      {group.category}
-                    </span>
-                  </div>
                 </div>
                 <div className="flex items-center justify-between p-5">
                   <h3 className="text-lg font-semibold text-white sm:text-xl">
@@ -92,9 +87,7 @@ export default function PortfolioSection() {
                 </button>
               </div>
               <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base">
-                Hạng mục thi công được thực hiện theo tiêu chuẩn an toàn, chất
-                lượng và tiến độ nghiêm ngặt. Chúng tôi cung cấp giải pháp tổng
-                thể từ khảo sát đến bàn giao hoàn thiện.
+                {activeCategory.description}
               </p>
               <div className="mt-6 columns-1 gap-4 space-y-4 sm:columns-2 lg:columns-3">
                 {activeCategory.images.map((image, index) => (
